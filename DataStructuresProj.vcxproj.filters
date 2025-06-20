@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Data Types">
+      <UniqueIdentifier>{0f0264e7-cd7b-41a9-962c-ad7b54282653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\dlinkedlist">
+      <UniqueIdentifier>{441fbd34-b84a-4d23-bc79-9993119b695a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\hashtable">
+      <UniqueIdentifier>{1e7782f2-a8a9-4e02-a3b1-4d315fb959c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\heap">
+      <UniqueIdentifier>{87d5430f-c119-4ec7-9224-53ede74b19b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\linkedlist">
+      <UniqueIdentifier>{5b047f07-dc55-4ae3-87c6-dfe1bfa3ccf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nodes">
+      <UniqueIdentifier>{ca7c03b2-cfe4-4584-8533-c6e7ddeadc13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nodes\node">
+      <UniqueIdentifier>{6a58b27b-a2b7-4390-aa34-6235d403c7c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\bstree">
+      <UniqueIdentifier>{52f3daec-d093-4f67-a7e7-21aa16b05bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\avltree">
+      <UniqueIdentifier>{40128ec5-0060-46bf-970e-f2a919576a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nodes\dll_node">
+      <UniqueIdentifier>{c8bb0be3-ebc4-4368-b557-48c2ea06f457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nodes\hash_node">
+      <UniqueIdentifier>{e136a961-f4fd-48be-bfa6-68dca574c8b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nodes\avl_node">
+      <UniqueIdentifier>{a903ed2e-79de-4108-beca-4f34fd2614a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nodes\rb_node">
+      <UniqueIdentifier>{5a4c0697-72b0-442b-bd6d-df794a74c8bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\rbtree">
+      <UniqueIdentifier>{c6be3018-ff67-4d88-99e2-abed0c3f16ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nodes\bs_node">
+      <UniqueIdentifier>{90407e27-2b91-4495-ba77-00f0a14adaf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\graph">
+      <UniqueIdentifier>{d58661be-0c75-4ddf-ba33-7fe1944daaca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\pqueue">
+      <UniqueIdentifier>{852112bb-6b67-45e9-b56d-383ea9b68395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nodes\edge_node">
+      <UniqueIdentifier>{327c7aa1-85c7-409f-93d2-e60772758d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\dqueue">
+      <UniqueIdentifier>{3ca41363-1a0e-4cee-b517-041f10c316fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\queue">
+      <UniqueIdentifier>{22e6b912-4355-4b47-b120-b1247a83eb4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\dstack">
+      <UniqueIdentifier>{e4b07c34-954c-47ae-b9d3-c7987f2941f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\stack">
+      <UniqueIdentifier>{88277fab-32da-4b99-b3b0-9f4408c9b223}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avltree\avl_algorithms.c">
+      <Filter>Source Files\Data Types\avltree</Filter>
+    </ClCompile>
+    <ClCompile Include="avltree\avltree.c">
+      <Filter>Source Files\Data Types\avltree</Filter>
+    </ClCompile>
+    <ClCompile Include="avltree\avl_node.c">
+      <Filter>Source Files\Nodes\avl_node</Filter>
+    </ClCompile>
+    <ClCompile Include="bstree\bst_algorithms.c">
+      <Filter>Source Files\Data Types\bstree</Filter>
+    </ClCompile>
+    <ClCompile Include="bstree\bstree.c">
+      <Filter>Source Files\Data Types\bstree</Filter>
+    </ClCompile>
+    <ClCompile Include="dlinkedlist\dlinkedlist.c">
+      <Filter>Source Files\Data Types\dlinkedlist</Filter>
+    </ClCompile>
+    <ClCompile Include="dlinkedlist\dll_algorithms.c">
+      <Filter>Source Files\Data Types\dlinkedlist</Filter>
+    </ClCompile>
+    <ClCompile Include="dqueue\dqueue.c">
+      <Filter>Source Files\Data Types\dqueue</Filter>
+    </ClCompile>
+    <ClCompile Include="dqueue\dqueue_algorithms.c">
+      <Filter>Source Files\Data Types\dqueue</Filter>
+    </ClCompile>
+    <ClCompile Include="dstack\dstack.c">
+      <Filter>Source Files\Data Types\dstack</Filter>
+    </ClCompile>
+    <ClCompile Include="dstack\dstack_algorithms.c">
+      <Filter>Source Files\Data Types\dstack</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\graph.c">
+      <Filter>Source Files\Data Types\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\graph_algorithms.c">
+      <Filter>Source Files\Data Types\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="hashtable\hashtable.c">
+      <Filter>Source Files\Data Types\hashtable</Filter>
+    </ClCompile>
+    <ClCompile Include="hashtable\ht_algorithms.c">
+      <Filter>Source Files\Data Types\hashtable</Filter>
+    </ClCompile>
+    <ClCompile Include="heap\heap.c">
+      <Filter>Source Files\Data Types\heap</Filter>
+    </ClCompile>
+    <ClCompile Include="heap\heap_algorithms.c">
+      <Filter>Source Files\Data Types\heap</Filter>
+    </ClCompile>
+    <ClCompile Include="linkedlist\linkedlist.c">
+      <Filter>Source Files\Data Types\linkedlist</Filter>
+    </ClCompile>
+    <ClCompile Include="linkedlist\ll_algorithms.c">
+      <Filter>Source Files\Data Types\linkedlist</Filter>
+    </ClCompile>
+    <ClCompile Include="pqueue\pqueue.c">
+      <Filter>Source Files\Data Types\pqueue</Filter>
+    </ClCompile>
+    <ClCompile Include="queue\queue.c">
+      <Filter>Source Files\Data Types\queue</Filter>
+    </ClCompile>
+    <ClCompile Include="queue\queue_algorithms.c">
+      <Filter>Source Files\Data Types\queue</Filter>
+    </ClCompile>
+    <ClCompile Include="rbtree\rbt_algorithms.c">
+      <Filter>Source Files\Data Types\rbtree</Filter>
+    </ClCompile>
+    <ClCompile Include="rbtree\rbtree.c">
+      <Filter>Source Files\Data Types\rbtree</Filter>
+    </ClCompile>
+    <ClCompile Include="stack\stack.c">
+      <Filter>Source Files\Data Types\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="stack\stack_algorithms.c">
+      <Filter>Source Files\Data Types\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="bstree\bs_node.c">
+      <Filter>Source Files\Nodes\bs_node</Filter>
+    </ClCompile>
+    <ClCompile Include="dlinkedlist\dll_node.c">
+      <Filter>Source Files\Nodes\dll_node</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\edge_node.c">
+      <Filter>Source Files\Nodes\edge_node</Filter>
+    </ClCompile>
+    <ClCompile Include="hashtable\hash_node.c">
+      <Filter>Source Files\Nodes\hash_node</Filter>
+    </ClCompile>
+    <ClCompile Include="node.c">
+      <Filter>Source Files\Nodes\node</Filter>
+    </ClCompile>
+    <ClCompile Include="rbtree\rb_node.c">
+      <Filter>Source Files\Nodes\rb_node</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="printorder.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="datastructures.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avltree\avl_algorithms.h">
+      <Filter>Source Files\Data Types\avltree</Filter>
+    </ClInclude>
+    <ClInclude Include="avltree\avltree.h">
+      <Filter>Source Files\Data Types\avltree</Filter>
+    </ClInclude>
+    <ClInclude Include="avltree\avl_node.h">
+      <Filter>Source Files\Nodes\avl_node</Filter>
+    </ClInclude>
+    <ClInclude Include="bstree\bst_algorithms.h">
+      <Filter>Source Files\Data Types\bstree</Filter>
+    </ClInclude>
+    <ClInclude Include="bstree\bstree.h">
+      <Filter>Source Files\Data Types\bstree</Filter>
+    </ClInclude>
+    <ClInclude Include="dlinkedlist\dlinkedlist.h">
+      <Filter>Source Files\Data Types\dlinkedlist</Filter>
+    </ClInclude>
+    <ClInclude Include="dlinkedlist\dll_algorithms.h">
+      <Filter>Source Files\Data Types\dlinkedlist</Filter>
+    </ClInclude>
+    <ClInclude Include="dqueue\dqueue.h">
+      <Filter>Source Files\Data Types\dqueue</Filter>
+    </ClInclude>
+    <ClInclude Include="dqueue\dqueue_algorithms.h">
+      <Filter>Source Files\Data Types\dqueue</Filter>
+    </ClInclude>
+    <ClInclude Include="dstack\dstack.h">
+      <Filter>Source Files\Data Types\dstack</Filter>
+    </ClInclude>
+    <ClInclude Include="dstack\dstack_algorithms.h">
+      <Filter>Source Files\Data Types\dstack</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\graph.h">
+      <Filter>Source Files\Data Types\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\graph_algorithms.h">
+      <Filter>Source Files\Data Types\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="hashtable\hashtable.h">
+      <Filter>Source Files\Data Types\hashtable</Filter>
+    </ClInclude>
+    <ClInclude Include="hashtable\ht_algorithms.h">
+      <Filter>Source Files\Data Types\hashtable</Filter>
+    </ClInclude>
+    <ClInclude Include="heap\heap.h">
+      <Filter>Source Files\Data Types\heap</Filter>
+    </ClInclude>
+    <ClInclude Include="heap\heap_algorithms.h">
+      <Filter>Source Files\Data Types\heap</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedlist\linkedlist.h">
+      <Filter>Source Files\Data Types\linkedlist</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedlist\ll_algorithms.h">
+      <Filter>Source Files\Data Types\linkedlist</Filter>
+    </ClInclude>
+    <ClInclude Include="pqueue\pqueue.h">
+      <Filter>Source Files\Data Types\pqueue</Filter>
+    </ClInclude>
+    <ClInclude Include="queue\queue.h">
+      <Filter>Source Files\Data Types\queue</Filter>
+    </ClInclude>
+    <ClInclude Include="queue\queue_algorithms.h">
+      <Filter>Source Files\Data Types\queue</Filter>
+    </ClInclude>
+    <ClInclude Include="rbtree\rbt_algorithms.h">
+      <Filter>Source Files\Data Types\rbtree</Filter>
+    </ClInclude>
+    <ClInclude Include="rbtree\rbtree.h">
+      <Filter>Source Files\Data Types\rbtree</Filter>
+    </ClInclude>
+    <ClInclude Include="stack\stack.h">
+      <Filter>Source Files\Data Types\stack</Filter>
+    </ClInclude>
+    <ClInclude Include="stack\stack_algorithms.h">
+      <Filter>Source Files\Data Types\stack</Filter>
+    </ClInclude>
+    <ClInclude Include="bstree\bs_node.h">
+      <Filter>Source Files\Nodes\bs_node</Filter>
+    </ClInclude>
+    <ClInclude Include="dlinkedlist\dll_node.h">
+      <Filter>Source Files\Nodes\dll_node</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\edge_node.h">
+      <Filter>Source Files\Nodes\edge_node</Filter>
+    </ClInclude>
+    <ClInclude Include="hashtable\hash_node.h">
+      <Filter>Source Files\Nodes\hash_node</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>Source Files\Nodes\node</Filter>
+    </ClInclude>
+    <ClInclude Include="rbtree\rb_node.h">
+      <Filter>Source Files\Nodes\rb_node</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
