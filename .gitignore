@@ -1,21 +1,18 @@
-# Build results
-[Bb]in/
-[Oo]bj/
-*.exe
-*.dll
-*.pdb
-
-# VS files to exclude
-.vs/
-*.user
-*.suo
-*.cache
-*.log
-*.VC.db
+# Ignore Visual Studio build folders
 x64/
-*.vcxproj
+Debug/
+Release/
 
-# Others
-*.ncb
+# Ignore user-specific and temporary files
+*.VC.db
 *.sdf
-ipch/
+*.opensdf
+*.user
+*.log
+
+# Ignore .vcxproj files
+*.vcxproj
+*.vcxproj.filters
+
+# Ignore hidden VS folder
+.vs/
