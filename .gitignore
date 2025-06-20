@@ -12,6 +12,8 @@
 *.cache
 *.log
 *.VC.db
+x64/
+*.vcxproj
 
 # Others
 *.ncb
