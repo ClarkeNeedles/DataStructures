@@ -13,7 +13,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "stack.h"
-#include "stack_algorithms.h"
+#include "algos/stack_algorithms.h"
 
 // Resize the stack in memory
 void resizeStack(Stack* stack, int size)

@@ -9,7 +9,7 @@
 **********************************************************************************************/
 
 #include <stdlib.h>
-#include "bst_algorithms.h"
+#include "algos/bst_algorithms.h"
 
 // Searching for a value in a binary search tree
 BSNode* searchBst(BST* bst, int data)

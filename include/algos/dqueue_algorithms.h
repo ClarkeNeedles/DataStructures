@@ -10,7 +10,7 @@
 
 #pragma once
 
-#include "dqueue.h"
+#include "ds/dqueue.h"
 
 int searchDQueue(DQueue* queue, int data);
 

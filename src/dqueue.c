@@ -12,8 +12,8 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "dqueue.h"
-#include "dqueue_algorithms.h"
+#include "ds/dqueue.h"
+#include "algos/dqueue_algorithms.h"
 
 // Enqueue an item to the dynamic queue
 void enqueueDItem(DQueue* queue, int data)

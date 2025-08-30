@@ -1,7 +1,7 @@
 /*********************************************************************************************
 **
-**	File Name:		bst_algorithms.h
-**	Description:	Contains the function declarations for the binary search tree algorithms.
+**	File Name:		ht_algorithms.h
+**	Description:	Contains the function declarations for the hash table algorithms.
 **
 **	Author:			Clarke Needles
 **	Created:		6/5/2025
@@ -10,6 +10,8 @@
 
 #pragma once
 
-#include "bstree.h"
+#include "ds/hashtable.h"
 
-BSNode* searchBst(BST* bst, int data);
+unsigned int hashFunction(const char* key, size_t size);
+
+int searchHash(HashTable* hashTable, const char* key);

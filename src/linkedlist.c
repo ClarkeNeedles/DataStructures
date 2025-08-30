@@ -13,7 +13,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "linkedlist.h"
-#include "ll_algorithms.h"
+#include "algos/ll_algorithms.h"
 
 // Adds a node to a linked list
 void addItem(LinkedList* list, int data)

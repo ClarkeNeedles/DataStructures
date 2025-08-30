@@ -13,7 +13,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "rbtree.h"
-#include "rbt_algorithms.h"
+#include "algos/rbt_algorithms.h"
 
 // Rotate a node right in a RB tree
 static void rightRotate(RBNode** root, RBNode* node)

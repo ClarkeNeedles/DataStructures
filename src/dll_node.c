@@ -9,7 +9,7 @@
 **********************************************************************************************/
 
 #include <stdlib.h>
-#include "dll_node.h"
+#include "ds/dll_node.h"
 
 DNode* createDNode(int data)
 {

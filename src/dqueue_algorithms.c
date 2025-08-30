@@ -9,7 +9,7 @@
 **********************************************************************************************/
 
 #include <stdlib.h>
-#include "dqueue_algorithms.h"
+#include "algos/dqueue_algorithms.h"
 
 // Searches a queue for a value
 // Returns the index or -1 if not found

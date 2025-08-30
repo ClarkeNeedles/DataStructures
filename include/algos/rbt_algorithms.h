@@ -1,15 +1,15 @@
 /*********************************************************************************************
 **
-**	File Name:		queueu_algorithms.h
-**	Description:	Contains the function declarations for the queue algorithms.
+**	File Name:		rbt_algorithms.h
+**	Description:	Contains the function declarations for the red and black tree algorithms.
 **
 **	Author:			Clarke Needles
-**	Created:		6/10/2025
+**	Created:		6/5/2025
 **
 **********************************************************************************************/
 
 #pragma once
 
-#include "queue.h"
+#include "ds/rbtree.h"
 
-int searchQueue(Queue* queue, int data);
+RBNode* searchRbt(RBT* rbt, int data);

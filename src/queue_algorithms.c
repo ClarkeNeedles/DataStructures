@@ -9,7 +9,7 @@
 **********************************************************************************************/
 
 #include <stdlib.h>
-#include "queue_algorithms.h"
+#include "algos/queue_algorithms.h"
 
 // Search the queue for an item
 // Returns the index

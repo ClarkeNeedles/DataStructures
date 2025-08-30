@@ -9,7 +9,7 @@
 **********************************************************************************************/
 
 #include <string.h>
-#include "ht_algorithms.h"
+#include "algos/ht_algorithms.h"
 
 // Uses the FNV-1a hash function
 unsigned int hashFunction(const char* key, size_t size)

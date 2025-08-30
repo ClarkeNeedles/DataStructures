@@ -1,7 +1,7 @@
 /*********************************************************************************************
 **
-**	File Name:		ht_algorithms.h
-**	Description:	Contains the function declarations for the hash table algorithms.
+**	File Name:		avl_algorithms.h
+**	Description:	Contains the function declarations for the avl tree algorithms.
 **
 **	Author:			Clarke Needles
 **	Created:		6/5/2025
@@ -10,8 +10,7 @@
 
 #pragma once
 
-#include "hashtable.h"
+#include "ds/avltree.h"
 
-unsigned int hashFunction(const char* key, size_t size);
-
-int searchHash(HashTable* hashTable, const char* key);
+// Searching for a value in an AVL tree
+AVLNode* searchAvl(AVL* avl, int data);

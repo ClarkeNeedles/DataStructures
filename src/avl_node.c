@@ -10,7 +10,7 @@
 **********************************************************************************************/
 
 #include <stdlib.h>
-#include "avl_node.h"
+#include "ds/avl_node.h"
 
 AVLNode* createAVLNode(int data)
 {

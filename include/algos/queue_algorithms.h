@@ -1,7 +1,7 @@
 /*********************************************************************************************
 **
-**	File Name:		stack_algorithms.h
-**	Description:	Contains the function declarations for the stack algorithms.
+**	File Name:		queueu_algorithms.h
+**	Description:	Contains the function declarations for the queue algorithms.
 **
 **	Author:			Clarke Needles
 **	Created:		6/10/2025
@@ -10,6 +10,6 @@
 
 #pragma once
 
-#include "stack.h"
+#include "ds/queue.h"
 
-int searchStack(Stack* stack, int data);
+int searchQueue(Queue* queue, int data);

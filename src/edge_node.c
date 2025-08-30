@@ -9,7 +9,7 @@
 **********************************************************************************************/
 
 #include <stdlib.h>
-#include "edge_node.h"
+#include "ds/edge_node.h"
 
 ENode* createENode(int dest, int weight)
 {

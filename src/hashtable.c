@@ -14,7 +14,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "hashtable.h"
-#include "ht_algorithms.h"
+#include "algos/ht_algorithms.h"
 
 // Insert new data into the hash table
 void insertHash(HashTable* hashTable, const char* key, int data)

@@ -12,8 +12,8 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "dstack.h"
-#include "dstack_algorithms.h"
+#include "ds/dstack.h"
+#include "algos/dstack_algorithms.h"
 
 // Adding an item onto a dynamic stack
 void pushDItem(DStack* stack, int data)

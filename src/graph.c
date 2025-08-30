@@ -12,8 +12,8 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "graph.h"
-#include "graph_algorithms.h"
+#include "ds/graph.h"
+#include "algos/graph_algorithms.h"
 
 // Helper function for addGraphEdge that adds an edge at a given vertex index
 static void newEdge(ENode** edge, int dest, int weight)
@@ -197,7 +197,7 @@ void initGraph(Graph* graph, int numVertices, DirectedFlag isDirected)
 	{
 		vertices[i].head = NULL;
 		vertices[i].numEdges = 0;
-		vertices[i].distance = INT_MAX;
+		vertices[i].distance = __INT_MAX__;
 		vertices[i].parent = -1;
 		vertices[i].visited = NOT_VISITED;
 	}

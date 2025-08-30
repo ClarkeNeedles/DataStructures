@@ -9,10 +9,10 @@
 **********************************************************************************************/
 
 #include <stdlib.h>
-#include "../queue/queue.h"
-#include "../stack/stack.h"
-#include "../pqueue/pqueue.h"
-#include "graph_algorithms.h"
+#include "ds/queue.h"
+#include "ds/stack.h"
+#include "ds/pqueue.h"
+#include "algos/graph_algorithms.h"
 
 // Helper to mark all vertices as unvisited
 // At the start of a search algorithm
@@ -203,7 +203,7 @@ int searchVertex(Graph* graph, int src, int dest, SearchType type)
 void shortestPathAlgorithm(Graph* graph, int src)
 {
 	// Shortest path has already been determined
-	if (graph->vertices[src].distance != INT_MAX &&
+	if (graph->vertices[src].distance != __INT_MAX__ &&
 		graph->vertices[src].parent != -1)
 	{
 		return;

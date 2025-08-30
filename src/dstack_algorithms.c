@@ -9,7 +9,7 @@
 **********************************************************************************************/
 
 #include <stdlib.h>
-#include "dstack_algorithms.h"
+#include "algos/dstack_algorithms.h"
 
 // Searches a stack for a value
 // Returns the index or -1 if not found

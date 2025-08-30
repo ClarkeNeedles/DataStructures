@@ -12,8 +12,8 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "avltree.h"
-#include "avl_algorithms.h"
+#include "ds/avltree.h"
+#include "algos/avl_algorithms.h"
 
 // Helper function that updates the height of a node
 static void updateHeight(AVLNode* node)

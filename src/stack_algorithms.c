@@ -9,7 +9,7 @@
 **********************************************************************************************/
 
 #include <stdlib.h>
-#include "stack_algorithms.h"
+#include "algos/stack_algorithms.h"
 
 // Search for an item in a stack
 // Returns the index

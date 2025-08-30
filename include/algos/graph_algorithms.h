@@ -10,7 +10,7 @@
 
 #pragma once
 
-#include "graph.h"
+#include "ds/graph.h"
 
 int graphConnected(Graph* graph, int src);
 

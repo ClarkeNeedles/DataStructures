@@ -12,8 +12,8 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "bstree.h"
-#include "bst_algorithms.h"
+#include "ds/bstree.h"
+#include "algos/bst_algorithms.h"
 
 // Inserting a new node into the binary search tree
 void insertBst(BST* bst, int data)

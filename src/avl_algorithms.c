@@ -9,7 +9,7 @@
 **********************************************************************************************/
 
 #include <stdlib.h>
-#include "avl_algorithms.h"
+#include "algos/avl_algorithms.h"
 
 // Searching for a value in an AVL tree
 AVLNode* searchAvl(AVL* avl, int data)

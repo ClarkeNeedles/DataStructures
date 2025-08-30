@@ -10,7 +10,7 @@
 
 #pragma once
 
-#include "dstack.h"
+#include "ds/dstack.h"
 
 int searchDStack(DStack* stack, int data);
 

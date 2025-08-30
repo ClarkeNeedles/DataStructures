@@ -9,7 +9,7 @@
 **********************************************************************************************/
 
 #include <stdlib.h>
-#include "ll_algorithms.h"
+#include "algos/ll_algorithms.h"
 
 // Searches a linked list for a value
 // Returns the index or -1 if not found

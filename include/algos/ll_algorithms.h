@@ -10,7 +10,7 @@
 
 #pragma once
 
-#include "linkedlist.h"
+#include "ds/linkedlist.h"
 
 int searchList(LinkedList* list, int data);
 

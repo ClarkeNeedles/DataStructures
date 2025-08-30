@@ -9,7 +9,7 @@
 **********************************************************************************************/
 
 #include <stdlib.h>
-#include "rbt_algorithms.h"
+#include "algos/rbt_algorithms.h"
 
 // Searching for a value in a RB tree
 RBNode* searchRbt(RBT* rbt, int data)

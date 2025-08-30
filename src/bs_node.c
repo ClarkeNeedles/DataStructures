@@ -9,7 +9,7 @@
 **********************************************************************************************/
 
 #include <stdlib.h>
-#include "bs_node.h"
+#include "ds/bs_node.h"
 
 BSNode* createBSNode(int data)
 {

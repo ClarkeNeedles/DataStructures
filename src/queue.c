@@ -13,7 +13,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "queue.h"
-#include "queue_algorithms.h"
+#include "algos/queue_algorithms.h"
 
 // Resize queue in memory
 void resizeQueue(Queue* queue, int size)

@@ -12,8 +12,8 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "dlinkedlist.h"
-#include "dll_algorithms.h"
+#include "ds/dlinkedlist.h"
+#include "algos/dll_algorithms.h"
 
 // Adds a node to a doubly linked list at a location
 void addDItemAt(DLinkedList* list, int data, int index)
